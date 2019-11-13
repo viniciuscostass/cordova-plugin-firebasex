@@ -1,8 +1,9 @@
 interface IChannelOptions {
     id: string
     name?: string
+    description?: string
     sound?: string
-    vibration?: boolean | number[]
+    vibration?: number[] | boolean
     light?: boolean
     lightColor?: string
     importance?: 0 | 1 | 2 | 3 | 4
